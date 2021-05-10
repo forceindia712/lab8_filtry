@@ -138,7 +138,7 @@ namespace Lab8_Grafika
 
             double R1 = 0, G1 = 0, B1 = 0;
 
-            int[,] macierz = new int[,] { { 0, 0, 0 }, { 0, 1, -1 }, { 0, 0, 0 } };
+            int[,] macierz = new int[,] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, -1, 0 } };
 
 
             for (int i = 1; i < wys - 1; i++)
